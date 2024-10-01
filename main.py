@@ -2,12 +2,12 @@ import pylab
 pylab.rcParams['figure.figsize'] = (16.0, 8.0)
 
 from process_video import process_video
-from find_global_centroid import find_global_centroid
 
+# Настройки программы.
 MAX_CONTOURS_DETECTING = 2                                         # Какое число выделенных контуров используется в вычислении координат метки.
 MARKING_PERIOD         = 5                                         # В кадрах. Раз в какое число кадров они анализируются и ставятся метки.
 NEW_OBJECT_GAP         = 2                                         # В кадрах. Сколько анализируемых кадров подряд должно пройти, чтобы изменился цвет маркеров.
-INPUT_FILE             = '.\\content\\worker-zone-detection1Trim.mp4'    # Путь к исходному файлу
+INPUT_FILE             = '.\\content\\worker-zone-detection1.mp4'  # Путь к исходному файлу
 OUTPUT_FILE            = 'result.mp4'                              # Путь к новому файлу
 LOWER_COLOR            = (190, 50 ,10)                             # Нижняя граница искомого цвета
 HIGHER_COLOR           = (254, 126, 90)                            # Верхняя граница искомого цвета
