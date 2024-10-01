@@ -11,6 +11,7 @@ def process_video(input_file, output_file, colors, lower_color, higher_color, ma
                           (int(cap.get(3)),int(cap.get(4)))      # разрешение
                           )
 
+  print("==================")
   print("Total Frames:", int(cap.get(cv2.CAP_PROP_FRAME_COUNT)))
   print("FPS detected:", round(cap.get(cv2.CAP_PROP_FPS)))
 
@@ -25,10 +26,10 @@ def process_video(input_file, output_file, colors, lower_color, higher_color, ma
 
   ret, frame_bgr = cap.read()
   while ret:
+    if frames_counter % int(total_frames * 0.1) == 0:
+        print("Progress: {0}%".format(frames_counter // int(total_frames * 0.1) * 10), end="\r")
     frames_counter += 1
     batch_counter += 1
-    if frames_counter % int(total_frames * 0.1) == 0:
-        print("Progress: {0}0%".format(frames_counter // int(total_frames * 0.1)))
 
     if batch_counter == marking_period:
       batch_counter = 0
@@ -44,3 +45,5 @@ def process_video(input_file, output_file, colors, lower_color, higher_color, ma
     writer.write(frame_bgr)
     ret, frame_bgr = cap.read()
   writer.release()
+
+  print("\nProcessing completed")
