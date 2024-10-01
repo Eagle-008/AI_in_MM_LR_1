@@ -2,6 +2,6 @@
 
 
 |||
-| :--------------------------------------------: | :------------------------------------------------------------------: |
-| ![bolt-detection](preview/bolt-detection.gif)  | ![bolt-multi-size-detection](preview/bolt-multi-size-detection.gif)  |
-| ![car-detection](preview/car-detection.gif)    | ![classroom](preview/classroom.gif)                                |||
+| :----------------------------------------------: | :---------------------------------------------------------: |
+| ![bolt-detection](preview/marker_in_1_frame.gif) | ![bolt-multi-size-detection](preview/marker_in_3_frame.gif) |
+| ![car-detection](preview/marker_in_10_frame.gif) | ![classroom](preview/marker_in_30_frame.gif)              |||
