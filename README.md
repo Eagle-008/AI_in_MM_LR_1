@@ -1,7 +1,15 @@
-# AI_in_MM_LR_1
+# AI_in_MM_LR_1 - Tracking object with color
 
+В данной лабораторной работе создано простое приложение для трекинга объектов с использованием классических методов компьютерного зрения. В программе используются inRange(), threshold(), поиск центроида и рисование примитивов. При этом отрисовывается полный путь объекта на последовательности кадров.
 
-|||
-| :-----------------------------------------------: | :----------------------------------------------------------: |
-| ![bolt-detection](preview/marker_in_1_frame.gif)  | ![bolt-multi-size-detection](preview/marker_in_3_frames.gif) |
-| ![car-detection](preview/marker_in_10_frames.gif) | ![classroom](preview/marker_in_30_frames.gif)              |||
+Пример исходного видео. Пример видео с результатом.
+
+Формат сдачи
+* Ссылка на репозиторий с кодом на git.miem.hse.ru или github.
+* Ссылка на исходное видео на Яндекс.Диск или Google Drive
+* Ссылка на видео с результатом на Яндекс.Диск или Google Drive.
+
+|                        Превью                           |                            Превью                       |
+| :-----------------------------------------------------: | :-----------------------------------------------------: |
+| ![marker_in_1_frame](preview/marker_in_1_frame.gif)     | ![marker_in_3_frames](preview/marker_in_3_frames.gif)   |
+| ![marker_in_10_frames](preview/marker_in_10_frames.gif) | ![marker_in_30_frames](preview/marker_in_30_frames.gif) |||
