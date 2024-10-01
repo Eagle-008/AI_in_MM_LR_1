@@ -4,6 +4,7 @@
 
 Материалы работы:
 - [Репозиторий с кодом Github](https://github.com/Eagle-008/AI_in_MM_LR_1)
+- [Файл Google Colab](https://colab.research.google.com/drive/1OsfRy4LvdC0s6GI8N6vmILhQu22eO5Hy?usp=sharing)
 - [Исходное видео на Яндекс.Диск](https://disk.yandex.ru/i/OENZkDXc9lQfzg)
 - [Видео с результатом на Яндекс.Диск](https://disk.yandex.ru/i/SpxX4MlC5fOUqA)
 
